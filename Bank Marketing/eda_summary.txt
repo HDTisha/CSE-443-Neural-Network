@@ -1,0 +1,63 @@
+BANK MARKETING DATASET - EDA SUMMARY
+==================================================
+
+Shape: 45211 rows x 17 columns
+
+Dtypes:
+age          int64
+job            str
+marital        str
+education      str
+default        str
+balance      int64
+housing        str
+loan           str
+contact        str
+day          int64
+month          str
+duration     int64
+campaign     int64
+pdays        int64
+previous     int64
+poutcome       str
+y              str
+dtype: object
+
+Missing values:
+age          0
+job          0
+marital      0
+education    0
+default      0
+balance      0
+housing      0
+loan         0
+contact      0
+day          0
+month        0
+duration     0
+campaign     0
+pdays        0
+previous     0
+poutcome     0
+y            0
+dtype: int64
+
+Describe (numeric):
+                age        balance  ...         pdays      previous
+count  45211.000000   45211.000000  ...  45211.000000  45211.000000
+mean      40.936210    1362.272058  ...     40.197828      0.580323
+std       10.618762    3044.765829  ...    100.128746      2.303441
+min       18.000000   -8019.000000  ...     -1.000000      0.000000
+25%       33.000000      72.000000  ...     -1.000000      0.000000
+50%       39.000000     448.000000  ...     -1.000000      0.000000
+75%       48.000000    1428.000000  ...     -1.000000      0.000000
+max       95.000000  102127.000000  ...    871.000000    275.000000
+
+[8 rows x 7 columns]
+
+Target distribution:
+y
+no     39922
+yes     5289
+Name: count, dtype: int64

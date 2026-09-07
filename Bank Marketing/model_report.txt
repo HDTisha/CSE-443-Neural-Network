@@ -1,0 +1,22 @@
+LOGISTIC REGRESSION - MODEL EVALUATION
+==================================================
+
+Train size: 36168, Test size: 9043
+Features used: 41 (duration excluded to prevent leakage)
+
+Classification report:
+              precision    recall  f1-score   support
+
+          no       0.94      0.77      0.85      7985
+         yes       0.27      0.62      0.37      1058
+
+    accuracy                           0.76      9043
+   macro avg       0.60      0.70      0.61      9043
+weighted avg       0.86      0.76      0.79      9043
+
+Confusion matrix:
+[[6171 1814]
+ [ 398  660]]
+
+ROC-AUC: 0.7721
+F1 score (yes class): 0.3737
